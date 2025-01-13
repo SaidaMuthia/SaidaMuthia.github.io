@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <script src="./static/js/bootstrap.js"></script>
+</head>
+<body>
+    <!--
+        Agar navbar selalu stick di atas:
+        - gunakan position fixed
+        - pasang posisi left 0 + top 0 sehingga  patokannya di sudut kiri atas
+        - menambah kelebaran max dgn width 100% (w-100)
+    -->
+
+    <!--
+        Pengaturan responsive:
+        - tambah  ukuran saat size normal
+        - ukuran saat breakpoint tertentu
+    -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 top-0 left-0" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Teks Utama -->
+    <div class="mt-5 pt-3">
+        <h1 class="text-center">Selamat Datang</h1>
+    </div>
+
+    <!-- Form -->
+    <form class="container my-5">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">I agree with the terms</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <!-- 
+        card di bootstrap biasanya overlapping
+        cara mengatasi:
+        - ukuran z index lebih redah dibanding navbar (pasang nilai negatif)
+        - ukura z index navbar lebih tinggi dibandingkan card
+        -
+       -->
+       <!-- Card -->
+      <div class="container my-5 d-flex flex-column flex-md-row justify-content-between z-n1 position-relative">
+        <div class="card" style="width: 25rem;">
+            <img src="./8914.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="./8914.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="./8914.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semacam Artikel -->
+    <div class="container my-5">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quasi?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic est consequuntur, nam incidunt alias dolorum unde laboriosam facilis. Voluptatibus voluptates dolorum necessitatibus sunt temporibus minus obcaecati adipisci ea, asperiores eligendi mollitia autem eius natus perferendis ratione ex doloribus odio. Temporibus quae voluptatum facere voluptatem iste quas necessitatibus voluptates cumque dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam necessitatibus assumenda dicta quasi, provident accusamus aspernatur qui, minima cupiditate tempore sint sed quidem excepturi nostrum quia laborum optio nam facere! Hic consectetur quae commodi veritatis eveniet modi expedita. Sapiente, deleniti recusandae veritatis nemo beatae cumque fuga aperiam obcaecati unde dolorum porro aut nulla facere. Reiciendis asperiores quasi est facere dolores eius placeat ad laboriosam velit voluptatem. Hic id illo consequatur accusantium debitis, veniam veritatis accusamus aperiam mollitia deserunt laborum sunt in magni quae minus. Unde magnam eos, harum facere sint velit quidem, quas aliquid consectetur facilis laborum, distinctio aspernatur?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, odit? Velit accusamus nostrum, cum labore dolore totam iure voluptatibus tenetur nihil obcaecati deleniti praesentium mollitia illo sed alias facilis qui explicabo minus maiores vitae temporibus autem earum. Dignissimos consectetur maxime doloremque ullam. Vitae reiciendis, deleniti ducimus quo illo quam ipsam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo harum nisi amet incidunt a vel autem reprehenderit perferendis consectetur sunt quos praesentium, dolore cupiditate doloremque, beatae provident laboriosam exercitationem vitae dolores sequi id, velit odio possimus! Voluptatem quam totam fugiat nulla soluta excepturi, id provident sed neque? Nesciunt, at saepe.</p>
+      </div>
+</body>
+</html>

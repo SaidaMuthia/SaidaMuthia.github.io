@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcasaID | EcoAsa Indonesia</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <script src="../static/js/bootstrap.esm.min.js"></script>
+    <style>
+        #home {
+            background: linear-gradient(90deg, #88d8b0, #c1f0dc);
+            color: white;
+            padding: 225px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVBAR DAN HOME -->
+    <!-- Navbar Start -->
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary shadow position-fixed w-100 top-0 left-0 z-100">
+        <div class="container-fluid">
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#products">Produk</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#impact">Dampak</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <a class="navbar-brand me-5" href="#">
+                    <img src="./ecasa-logo.svg" alt="Ecasa Logo" width="50px" height="50px">
+                    <strong>Ecasa</strong>
+                </a>
+            </div>
+            <div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" aria-label="Search" placeholder="Cari">
+                    <button class="btn" type="submit">
+                        <img src="./search-icon.svg" alt="cari" style="display: block; margin-top: -2px;">
+                    </button>
+                </form>
+            </div>
+            <!-- <button class="btn btn-outline-primary ms-2">Login</button>
+            <button class="btn btn-primary ms-2">Daftar</button> -->
+          </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <section id="home" class="vh-100">
+        <div>
+            <h1 class="display-4 fw-bold">Selamat Datang di Ecasa</h1>
+            <p class="lead">Temukan produk ramah lingkungan terbaik untuk kebutuhan Anda</p>
+            <a href="#products" class="btn btn-success btn-lg">Jelajahi Produk</a>
+        </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- KONTEN UTAMA -->
+    <!-- About Start -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="./aboutme-image.jpg" alt="" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4">Tentang Kami</h2>
+                    <p>Ecasa adalah platform yang menghubungkan Anda dengan produk ramah lingkungan yang mendukung keberlanjutan dan memberikan dampak positif bagi bumi kita. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, atque porro! Labore delectus autem atque impedit neque, ea cum nostrum rem libero, veniam saepe maiores qui hic distinctio doloremque iste iusto quidem a! Officiis natus voluptatibus similique adipisci! Voluptatum voluptatem tenetur velit. Reprehenderit perferendis esse distinctio excepturi quas. Suscipit, at?</p>
+                    <a href="#impact" class="btn btn-outline-success">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Featured Product Start -->
+    <div id="products" class="mt-5">
+        <h2 class="text-center mb-4">Produk Pilihan Kami</h2>
+        <div class="container my-5 d-flex flex-column flex-md-row justify-content-between z-n1 position-relative">
+            <div class="card" style="width: 20rem;">
+                <img src="./produk1.jpg" class="card-img-top" alt="produk 1">
+                <div class="card-body">
+                    <h5 class="card-title">Produk 1</h5>
+                    <p class="card-text">Deskripsi singkat tentang produk 1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quidem.</p>
+                    <a href="#" class="btn btn-success">Lihat produk</a>
+                </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img src="./produk2.jpg" class="card-img-top" alt="produk 2">
+            <div class="card-body">
+              <h5 class="card-title">Produk 2</h5>
+              <p class="card-text">Deskripsi singkat tentang produk 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, veritatis?.</p>
+              <a href="#" class="btn btn-success">Lihat produk</a>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img src="./produk3.jpg" class="card-img-top" alt="produk 3">
+            <div class="card-body">
+              <h5 class="card-title">Produk 3</h5>
+              <p class="card-text">Deskripsi singkat tentang produk 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, officia!.</p>
+              <a href="#" class="btn btn-success">Lihat Produk</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Featured Product End -->
+
+    <!-- CTA View All Product Start -->
+    <section id="cta1" class="container-fluid py-5 text-center bg-light">
+        <h2>Dapatkan Penawaran Menarik!</h2>
+        <p>Klik tombol di bawah untuk melihat semua produk kami.</p>
+        <a href="#products" class="btn btn-secondary">Lihat Semua Produk</a>
+    </section>
+    <!-- CTA View All Product End -->
+
+    <!-- Impact Start -->
+    <section id="impact" class="container py-5 text-center mb-4">
+        <h2 class="mb-4">Dampak Kami</h2>
+        <p>Setiap pembelian Anda mendukung kampanye pelestarian lingkungan dan membantu menciptakan masa depan yang lebih hijau.</p>
+        <div class="container px-4 z-n1 position-relative" id="custom-cards">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./dampak1.jpg);">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Reboisasi pada hutan hujan kalimantan</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./ecasa-logo-bg.png" alt="Logo ecasa" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Kalimantan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./dampak2.jpeg);">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Penanaman pohon bersama warga desa konoha</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./ecasa-logo-bg.png" alt="Logo ecasa" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Konoha</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(./dampak3.jpeg);">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Kerja bakti pada kecamatan tamalanrea</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./ecasa-logo-bg.png" alt="Logo ecasa" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Makassar</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Impact End -->
+
+    <!-- CTA Join Campaign Start -->
+    <section id="cta2" class="container-fluid py-5 text-center bg-success text-white">
+        <h2>Ikut Kampanye Kami</h2>
+        <p>Bersama-sama, kita dapat membuat perbedaan!</p>
+        <a href="" class="btn btn-light">Bergabung</a>
+    </section>
+    <!-- CTA Join Campaign End -->
+
+    <!-- Testimoni Start -->
+    <section id="testimoni" class="py-5">
+        <h2 class="text-center mb-4">Testimoni</h2>
+        <div class="container z-n1 position-relative">
+            <div class="row">
+                <!-- Testimoni 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="./foto-profil.jpg" alt="Orang 1" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                            <p>"Produk Ecasa benar-benar mengubah cara saya melihat keberlanjutan!"</p>
+                            <h6 class="fw-bold mb-0">Orang 1</h6>
+                            <p class="text-muted">Mahasiswa</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimoni 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="./foto-profil.jpg" alt="Orang 2" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                            <p>"Produk Ecasa benar-benar mengubah cara saya melihat keberlanjutan!"</p>
+                            <h6 class="fw-bold mb-0">Orang 2</h6>
+                            <p class="text-muted">Mahasiswa</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimoni 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="./foto-profil.jpg" alt="Orang 3" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                            <p>"Produk Ecasa benar-benar mengubah cara saya melihat keberlanjutan!"</p>
+                            <h6 class="fw-bold mb-0">Orang 3</h6>
+                            <p class="text-muted">Mahasiswa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimoni End -->
+
+    <!-- FAQ Start -->
+    <section id="faq" class="container py-5">
+        <h2 class="text-center mb-4">FAQ</h2>
+        <div id="faqAccordion" class="accordion">
+            <!-- Q1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+                        Apa itu Ecasa?
+                    </button>
+                </h2>
+                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Ecasa adalah platform e-commerce yang menawarkan produk ramah lingkungan.
+                    </div>
+                </div>
+            </div>
+            <!-- Q2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                        Bagaimana cara mendukung kampanye kami?
+                    </button>
+                </h2>
+                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Anda dapat membeli produk kami atau bergabung dalam kampanye melalui tautan yang tersedia.
+                    </div>
+                </div>
+            </div>
+            <!-- Q3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                        Apa itu Ecasa?
+                    </button>
+                </h2>
+                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Ecasa adalah platform e-commerce yang menawarkan produk ramah lingkungan.
+                    </div>
+                </div>
+            </div>
+            <!-- Q4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                        Bagaimana cara mendukung kampanye kami?
+                    </button>
+                </h2>
+                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Anda dapat membeli produk kami atau bergabung dalam kampanye melalui tautan yang tersedia.
+                    </div>
+                </div>
+            </div>
+            <!-- Q5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                        Apa itu Ecasa?
+                    </button>
+                </h2>
+                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Ecasa adalah platform e-commerce yang menawarkan produk ramah lingkungan.
+                    </div>
+                </div>
+            </div>
+            <!-- Q6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                        Bagaimana cara mendukung kampanye kami?
+                    </button>
+                </h2>
+                <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Anda dapat membeli produk kami atau bergabung dalam kampanye melalui tautan yang tersedia.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ End -->
+
+    <!-- FOOTER -->
+    <!-- Footer Start -->
+    <footer id="footer" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Logo dan Deskripsi -->
+                <div class="col-md-4">
+                    <h5>Ecasa</h5>
+                    <p>Ecasa adalah platform e-commerce dan sociopreneur yang mendukung keberlanjutan dengan produk ramah lingkungan.</p>
+                </div>
+
+                <!-- Link Navigasi -->
+                <div class="col-md-4">
+                    <h5>Navigasi</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-white text-decoration-none">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="text-white text-decoration-none">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a href="#products" class="text-white text-decoration-none">Produk</a>
+                        </li>
+                        <li>
+                            <a href="#impact" class="text-white text-decoration-none">Dampak</a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="text-white text-decoration-none">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sosial Media -->
+                <div class="col-md-4">
+                    <h5>Sosial Media</h5>
+                    <a href="https://www.facebook.com/" target="_blank" class="text-white text-decoration-none me-3">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a><br>
+                    <a href="https://www.twitter.com/" target="_blank" class="text-white text-decoration-none me-3">
+                    <i class="bi bi-twitter"></i> Twitter
+                    </a><br>
+                    <a href="https://www.instagram.com/" target="_blank" class="text-white text-decoration-none me-3">
+                    <i class="bi bi-instagram"></i> Instagram
+                    </a><br>
+                    <a href="https://linkedin.com/" target="_blank" class="text-white text-decoration-none">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Ecasa.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+</html>
